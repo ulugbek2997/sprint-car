@@ -1,0 +1,75 @@
+@import url(./fonts.css);
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+p{
+  color: #FFFFFF;
+}
+
+body{
+  background-color: #000000;
+}
+
+
+.container{
+  position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.logo{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+
+.info{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-items: flex-end;
+  padding: 0 130px 54px 130px;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.info .left a{
+  display: flex;
+  align-items: center;
+}
+
+.info .left a svg{
+  margin-left: 20px;
+}
+
+.info .left p{
+  font-family: "playfair";
+  font-size: 18px;
+}
+
+.info .right p{
+  font-family: "quattrocento";
+  font-size: 18px;
+}
+
